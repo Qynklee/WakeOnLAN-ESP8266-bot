@@ -18,7 +18,7 @@ This is a sketch for the **NodeMCU ESP8266-12E with CH340G** board. A telegram b
 🪙 You can keep it running for about **1$** in electricity per year, the power consumption is less than half a watt.
 
 My ESP8266 board with CH340G:
-![image-20230613142712453](img\image-20230613142712453.png)
+![image-20230613142712453](https://github.com/Qynklee/WakeOnLAN-ESP8266-bot/blob/main/img/image-20230613142712453.png?raw=true)
 
 ## ⚙️ Installation
 
@@ -26,7 +26,7 @@ My ESP8266 board with CH340G:
   - [WakeOnLan](https://www.arduino.cc/reference/en/libraries/wakeonlan/): for sending the magic packet
   - [UniversalTelegramBot](https://www.arduino.cc/reference/en/libraries/universaltelegrambot/): for using the Telegram API
   - Add NodeMCU board in BoardManager with this [guide](https://www.instructables.com/Programming-ESP8266-ESP-12E-NodeMCU-Using-Arduino-/) ***(only install ESP8266 2.7.4).***
-    ![image-20230613141847766](img\image-20230613141847766.png)
+    ![image-20230613141847766](https://github.com/Qynklee/WakeOnLAN-ESP8266-bot/blob/main/img/image-20230613141847766.png?raw=true)
 - Create a new Telegram bot and configure your `BOT_TOKEN` and `ALLOWED_ID`  
   _You can use [@Botfather](https://t.me/botfather) to create a new bot and [@userinfobot](https://t.me/userinfobot) to get your ID_
 - Fill your _WiFi configuration_ and the _MAC address_ of the PC you want to power on.
